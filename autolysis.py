@@ -96,9 +96,9 @@ def main():
         sys.exit(1)
 
     file_path = sys.argv[1]
-    output_folder = os.path.splitext(file_path)[0]
-    os.makedirs(output_folder, exist_ok=True)
-
+    #output_folder = os.path.splitext(file_path)[0]
+    #os.makedirs(output_folder, exist_ok=True)
+    output_folder="."
     # Load dataset
     df = load_dataset(file_path)
 
